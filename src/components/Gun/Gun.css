@@ -1,0 +1,19 @@
+.card {
+	background-color: #89cf7b;
+	padding: 15px;
+	position: relative;
+	justify-self: center;
+}
+
+.image-container {
+	width: 400px;
+	height: 400px;
+	background-color: #fff;
+	padding: 25px;
+}
+
+.image-container img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
