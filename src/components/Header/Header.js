@@ -1,19 +1,21 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import './Header.css';
 
 const Header = () => {
 	return (
-		<div>
-			<Navbar bg="primary" variant="dark">
-				<Container>
-					<Navbar.Brand href="#home">Gun N Roses</Navbar.Brand>
-					<Nav className="me-auto">
-						<Nav.Link href="#home">Home</Nav.Link>
-						<Nav.Link href="#features">Features</Nav.Link>
-						<Nav.Link href="#pricing">Pricing</Nav.Link>
-					</Nav>
-				</Container>
-			</Navbar>
+		<div
+			className="change py-2
+		"
+		>
+			<div className="text-center">
+				<h1>Gun N Roses</h1>
+			</div>
+			{/* <div>
+				<a href="#home">Home</a>
+				<a href="#features">Features</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#about-us">About Us</a>
+			</div> */}
 		</div>
 	);
 };
