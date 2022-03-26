@@ -10,12 +10,6 @@ const Header = () => {
 			<div className="text-center">
 				<h1>Gun N Roses</h1>
 			</div>
-			{/* <div>
-				<a href="#home">Home</a>
-				<a href="#features">Features</a>
-				<a href="#pricing">Pricing</a>
-				<a href="#about-us">About Us</a>
-			</div> */}
 		</div>
 	);
 };

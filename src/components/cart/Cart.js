@@ -1,8 +1,8 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = ({ c }) => {
-	const { image, name } = c;
+const Cart = ({ item }) => {
+	const { image, name } = item;
 	return (
 		<>
 			<div className="d-flex justify-content-space-between align-items-center cart-card p-3 m-2 rounded">

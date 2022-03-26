@@ -1,4 +1,3 @@
-// import { faHourglass3 } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../cart/Cart';
 import Gun from '../Gun/Gun';
@@ -18,7 +17,7 @@ const Shop = () => {
 		if (newCart.length <= 4) {
 			setCart(newCart);
 		} else {
-			alert('hi');
+			alert('Please select 4 items only');
 		}
 	};
 
@@ -39,8 +38,8 @@ const Shop = () => {
 					))}
 				</div>
 				<div className="col-lg-3 col-sm-12 card pt-3 mt-4">
-					{cart.map((c) => (
-						<Cart key={c.id} c={c}></Cart>
+					{cart.map((item) => (
+						<Cart key={item.id} item={item}></Cart>
 					))}
 					<div className="m-3">
 						<h5>{element.name}</h5>
